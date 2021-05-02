@@ -54,13 +54,19 @@ public void AddBlock()
     }
     temp = Position[r.Next(0,PositionNum-1)];
     this.Map[temp/4,temp%4] = BlockVal;
-
 }
-
 public bool End()
 {
     return this.isend;
 }
+
+public void PressL()
+{
+
+}
+
+
+
 
 }
 class Program
